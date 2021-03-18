@@ -29,6 +29,8 @@ function Products() {
 
         return <div>
             <div>
+                <Filter />
+                <Sort />
                 <p style={{ "textAlign": "center" }}>No matching products found</p>
             </div>
             {setPage(1)}
