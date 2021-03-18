@@ -26,19 +26,19 @@ function ProductAPI() {
     }, [callback, category, search, sort, page, callback])
     useEffect(() => {
         const getAllProducts = async () => {
-            const res = await axios.get('/products')
+            const res = await axios.get('https://facemaskufl.herokuapp.com/products')
             setAllproducts((res.data.products))
         }
         const getLaptops = async () => {
-            const res = await axios.get(`/products?category=laptop&sort=-sold`)
+            const res = await axios.get(`https://facemaskufl.herokuapp.com/products?category=laptop&sort=-sold`)
             setHotLaptop(takeProductsHot(res.data.products))
         }
         const getMouses = async () => {
-            const res = await axios.get(`/products?category=mouse&sort=-sold`)
+            const res = await axios.get(`https://facemaskufl.herokuapp.com/products?category=mouse&sort=-sold`)
             setHotMouses(takeProductsHot(res.data.products))
         }
         const getHeadphone = async () => {
-            const res = await axios.get(`/products?category=headphone&sort=-sold`)
+            const res = await axios.get(`https://facemaskufl.herokuapp.com/products?category=headphone&sort=-sold`)
             setHotHeadphone(takeProductsHot(res.data.products))
         }
         getLaptops();
