@@ -60,7 +60,7 @@ function UserAPI(token) {
                 prices: product.prices,
                 images: product.images.url
             }])
-            await axios.post('/user/addcart', {
+            await axios.post('https://facemaskufl.herokuapp.com/user/addcart', {
                 cart: [...cart,
                 {
                     _id: product._id,
@@ -85,7 +85,7 @@ function UserAPI(token) {
             })
             // console.log(cart);
             setCart(cart);
-            await axios.post('/user/addcart', {
+            await axios.post('https://facemaskufl.herokuapp.com/user/addcart', {
                 cart: cart
             }, { headers: { Authorization: token } })
             return alert("added to cart");
@@ -106,14 +106,14 @@ function UserAPI(token) {
             const getHistory = async () => {
                 // console.log(isAdmin);
                 if (isAdmin) {
-                    const res = await axios.get('/checkout', {
+                    const res = await axios.get('https://facemaskufl.herokuapp.com/checkout', {
                         headers: { Authorization: token }
                     })
                     // console.log(res.data.checkouts);
                     setHistory((res.data.checkouts).slice(start, end))
                 }
                 else {
-                    const res = await axios.get('/user/history', {
+                    const res = await axios.get('https://facemaskufl.herokuapp.com/user/history', {
                         headers: { Authorization: token }
                     })
                     setHistory((res.data).slice(start, end))
