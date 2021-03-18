@@ -20,12 +20,12 @@ function UserAPI(token) {
         if (token) {
             const getUser = async () => {
                 try {
-                    const res = await axios.get('/user/infor', {
+                    const res = await axios.get('https://facemaskufl.herokuapp.com/user/infor', {
                         headers: { Authorization: token }
                     });
                     //console.log(res.data.user.role);
                     if (res.data.user.isBlock === true) {
-                        window.location.href = '/login'
+                        window.location.href = 'https://facemaskufl.herokuapp.com/login'
                         return alert("This account was blocked")
                     }
                     setIsLogged(true);

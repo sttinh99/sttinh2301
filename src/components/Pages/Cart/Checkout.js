@@ -22,7 +22,7 @@ function Checkout() {
 
     const addToCart = async (cart) => {
         // console.log(cart, "af");
-        await axios.post('/user/addcart', { cart },
+        await axios.post('https://facemaskufl.herokuapp.com/user/addcart', { cart },
             {
                 headers: { Authorization: token }
             })
@@ -42,7 +42,7 @@ function Checkout() {
                     window.location.href = '/products'
                 }
             }
-            await axios.post('/checkout', { cart, address: address, payments: payments, deliveryCharges, tax, total: total }, {
+            await axios.post('https://facemaskufl.herokuapp.com/checkout', { cart, address: address, payments: payments, deliveryCharges, tax, total: total }, {
                 headers: { Authorization: token }
             });
             setCart([]);

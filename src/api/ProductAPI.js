@@ -18,7 +18,7 @@ function ProductAPI() {
         const start = (page - 1) * perPage;
         const end = (page * perPage);
         const getProducts = async () => {
-            const res = await axios.get(`/products?${category}&${sort}&title[regex]=${search}`);
+            const res = await axios.get(`https://facemaskufl.herokuapp.com/products?${category}&${sort}&title[regex]=${search}`);
             setProducts((res.data.products).slice(start, end))
             setResult(res.data.result)
         }
