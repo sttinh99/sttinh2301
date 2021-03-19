@@ -1,8 +1,8 @@
-{
-    "redirects": [
-        {
-            "source": "/",
-            "destination": "https://facemaskufl.herokuapp.com"
-        }
-    ]
-}
+// {
+//     "redirects": [
+//         {
+//             "source": "/"
+//             // "destination": "https://facemaskufl.herokuapp.com"
+//         }
+//     ]
+// }

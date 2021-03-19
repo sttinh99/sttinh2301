@@ -10,10 +10,10 @@ function Contact() {
                         <h2 className="title">Contact Us</h2>
                         <p className="text-contact">Any questions so please contact:</p>
                         <strong className="text-contact">facemaskUFL@gmail.com</strong>
+                        <strong className="text-contact">0931905047</strong>
                         <div className="map">
                             <span style={{ "fontSize": "30px" }}>Our Address:</span>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.596715099018!2d108.20904461468373!3d16.034495688902425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421993714be463%3A0xe70ea786257610ed!2zMTMxIEzGsMahbmcgTmjhu68gSOG7mWMsIEtodcOqIFRydW5nLCBD4bqpbSBM4buHLCDEkMOgIE7hurVuZyA1NTAwMDAsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1616080367049!5m2!1svi!2s" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" />
-                        </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.296478270264!2d108.24404966468386!3d16.050097638892787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421767eaac1a07%3A0x66988f211e4e53d6!2sThe%20Paper%20House!5e0!3m2!1svi!2s!4v1616130718267!5m2!1svi!2s" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" />                        </div>
                     </div>
                 </div>
             </div>
