@@ -10,6 +10,7 @@ function Contact() {
                         <h2 className="title">Contact Us</h2>
                         <p className="text-contact">Any questions so please contact:</p>
                         <strong className="text-contact">facemaskUFL@gmail.com</strong>
+                        <hr />
                         <strong className="text-contact">0931905047</strong>
                         <div className="map">
                             <span style={{ "fontSize": "30px" }}>Our Address:</span>
