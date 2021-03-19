@@ -26,6 +26,9 @@ function Header() {
     const [user] = state.UserAPI.user
     const [history] = state.UserAPI.history
     const [onDisplay, setOndisplay] = useState(false)
+
+
+    console.log(isLogged, isAdmin)
     //console.log(state);
     //console.log(cart);
 

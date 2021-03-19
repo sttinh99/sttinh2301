@@ -15,7 +15,7 @@ function Login() {
     const loginSubmit = async (e) => {
         e.preventDefault()
         try {
-            await axios.post('https://facemaskufl.herokuapp.com/user/login', { ...user })
+            await axios.post('/user/login', { ...user })
             localStorage.setItem('firstLogin', true)
             window.location.href = '/'
         } catch (error) {
@@ -25,7 +25,7 @@ function Login() {
     }
     return (
         <div className='login-page'>
-            <form onSubmit={loginSubmit}>
+            <form onSubmit={loginSubmit} enctype="multipart/form-data">
                 <h2 style={{ "textAlign": "center" }}>Login</h2>
                 <label name="email" htmlFor="email">Email:</label>
                 <input id="email" type='email' name='email' required placeholder='Enter Your Email...' value={user.email} onChange={onChangeInput} />
