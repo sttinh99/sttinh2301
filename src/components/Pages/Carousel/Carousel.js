@@ -23,12 +23,6 @@ function ControlledCarousel() {
                     alt="Third slide"
                 />
 
-                <Carousel.Caption>
-                    <h3>
-                        Face Mask
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
@@ -36,10 +30,6 @@ function ControlledCarousel() {
                     src='https://image.freepik.com/free-vector/coronavirus-protection-background-with-face-mask_23-2148687016.jpg'
                     alt="First slide"
                 />
-                <Carousel.Caption>
-                    <h3></h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -49,10 +39,6 @@ function ControlledCarousel() {
                     alt="Third slide"
                 />
 
-                <Carousel.Caption>
-                    <h3>HeadPhone</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
             </Carousel.Item>
 
         </Carousel>

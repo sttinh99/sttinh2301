@@ -14,13 +14,13 @@ function Footer() {
                 <div className="row">
                     <div className="col-sm-12 col-md-6">
                         <h6>About</h6>
-                        <p className="text-justify">Address <i>Số 1 Võ Văn Ngân, Linh Chiểu, Thủ Đức, TPHCM</i> <p>© 1997 - 2020 Two Members Trading - Service Joint Stock Company</p>
-                        Certificate of business registration: 0304998358 by Sở KH-ĐT TP.HCM cấp lần đầu ngày 30 tháng 05 năm 2007</p>
+                        <p className="text-justify">Address <i>N23 An Thượng 37, Ngũ Hành Sơn, Đà Nẵng</i> <p>© 1997 - 2020 Two Members Trading - Service Joint Stock Company</p>
+                        Certificate of business registration: 0931905047</p>
                     </div>
                     <div className="col-xs-6">
                         <h6>Main Address:</h6>
                         <ul className="footer-links">
-                            <li>Số 1 Võ Văn Ngân, Linh Chiểu, Thủ Đức, TPHCM</li>
+                            <li>N23 An Thượng 37, Ngũ Hành Sơn, Đà Nẵng</li>
                         </ul>
                         <h6>Open time:</h6>
                         <ul className="footer-links xxx">

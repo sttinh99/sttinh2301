@@ -62,7 +62,7 @@ function DetailProduct() {
                             </div>
                     }
                     <div className="row-price">
-                        <p>Price: ${detailProduct.prices}</p>
+                        <p>Price: {detailProduct.prices}K</p>
                     </div>
                     {detailProduct.isDelete === true ? <p>Sold out</p> :
                         <Link to="/cart" className="cart-buy" onClick={() => addCart(detailProduct)}>Buy Now</Link>}

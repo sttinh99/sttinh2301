@@ -25,7 +25,7 @@ function ProductItem({ product, isAdmin }) {
                 <div className="product_box">
                     <h2 title={product.title}>{product.title}</h2>
                     <p>{product.description}</p>
-                    <span>Price: {product.prices}$</span>
+                    <span>Price: {product.prices}K</span>
                 </div>
                 Đã Hết Hàng
                 <p>solded: {product.sold}</p>
@@ -38,7 +38,7 @@ function ProductItem({ product, isAdmin }) {
             <div className="product_box">
                 <h2 title={product.title}>{product.title}</h2>
                 <p>{product.description}</p>
-                <span>Price: {product.prices}$</span>
+                <span>Price: {product.prices}K</span>
             </div>
             <BtnRender product={product} />
             <p>solded: {product.sold}</p>
